@@ -11,8 +11,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.study.materialdesign.ui.BadgeM3
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Alignment
+import com.study.materialdesign.ui.SliderM3
+import com.study.materialdesign.ui.SwitchM3
 
 
 class MainActivity : ComponentActivity() {
@@ -25,11 +28,15 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Preview
+@Preview(showBackground = true)
 @Composable
 fun ComponentsPreview(){
     Column {
         BadgeM3()
+
+        SwitchM3()
+
+        SliderM3()
     }
 }
 

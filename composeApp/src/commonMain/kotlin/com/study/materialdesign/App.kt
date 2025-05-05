@@ -6,8 +6,14 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import com.study.materialdesign.ui.CheckBoxM3
+import com.study.materialdesign.ui.AssistChipsM3
+import com.study.materialdesign.ui.ElevatedAssistChipM3
+import com.study.materialdesign.ui.FilterChipM3
+import com.study.materialdesign.ui.InputChipM3
 import com.study.materialdesign.ui.RadioButtonM3
 import com.study.materialdesign.ui.SliderM3
+import com.study.materialdesign.ui.SuggestionChipM3
 import com.study.materialdesign.ui.SwitchM3
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
@@ -23,7 +29,14 @@ fun App() {
             //BadgeM3()
             //SwitchM3()
             //SliderM3()
-            RadioButtonM3()
+            //RadioButtonM3()
+            //CheckBoxM3()
+            //AssistChipsM3()
+            //ElevatedAssistChipM3()
+            //FilterChipM3()
+            //SuggestionChipM3()
+            InputChipM3()
         }
     }
 }
+
